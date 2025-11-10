@@ -12,10 +12,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\APIServiceFactory\APIServiceFactory.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="reflection\" />
+    <ProjectReference Include="..\IImporter\IImporter.csproj" />
+    <ProjectReference Include="..\Services\Services.csproj" />
   </ItemGroup>
 
 </Project>
